@@ -60,14 +60,10 @@
 \begin_body
 
 \begin_layout Title
-
-\size normal
 Tarea N°4
 \end_layout
 
 \begin_layout Author
-
-\size normal
 Claudio Acuña Guillermo Rojar Cristian Garrido Jose Acuña Leonardo jofre
 \end_layout
 
@@ -76,528 +72,358 @@ Lista Top Ten de los superordenadores
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 Tianhe-2 (MilkyWay-2) - TH-IVB-FEP Cluster, Intel Xeon E5-2692 12C 2.200GHz,
  TH Express-2, Intel Xeon Phi 31S1P
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: National University of Defense Technology
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: NUDT
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 3,120,000 Linpack Performance (Rmax) 33,862.7 TFlop/s Theoretical
  Peak (Rpeak) 54,902.4 TFlop/s
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 17,808.00 kW 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Memory: 1,024,000 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: TH Express-2 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Kylin Linux 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Compiler: icc 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Math Library: Intel MKL-11.0.0 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 MPI: MPICH2 with a customized GLEX channel 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 Titan - Cray XK7 , Opteron 6274 16C 2.200GHz, Cray Gemini interconnect, NVIDIA
  K20x
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: DOE/SC/Oak Ridge National Laboratory System 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 URL: http://www.olcf.ornl.gov/titan/ 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: Cray Inc.
  
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 560,640 Linpack Performance (Rmax) 17,590.0 TFlop/s Theoretical Peak
  (Rpeak) 27,112.5 TFlop/s 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 8,209.00 kW 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Memory: 710,144 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Cray Gemini interconnect 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Cray Linux Environment 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 Sequoia - BlueGene/Q, Power BQC 16C 1.60 GHz, Custom 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: DOE/NNSA/LLNL 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: IBM 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 1,572,864 Linpack Performance (Rmax) 17,173.2 TFlop/s Theoretical
  Peak (Rpeak) 20,132.7 TFlop/s 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 7,890.00 kW Memory: 1,572,864 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Custom Interconnect Operating System: Linux 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 K computer, SPARC64 VIIIfx 2.0GHz, Tofu interconnect
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: RIKEN Advanced Institute for Computational Science (AICS) 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: Fujitsu 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 705,024 Linpack Performance (Rmax) 10,510.0 TFlop/s Theoretical Peak
  (Rpeak) 11,280.4 TFlop/s 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 12,659.89 kW 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Memory: 1,410,048 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Custom Interconnect 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Linux 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 Mira - BlueGene/Q, Power BQC 16C 1.60GHz, Custom
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: DOE/SC/Argonne National Laboratory 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: IBM 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 786,432 Linpack Performance (Rmax) 8,586.6 TFlop/s Theoretical Peak
  (Rpeak) 10,066.3 TFlop/s 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 3,945.00 kW Memory:
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Custom Interconnect 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Linux 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 Stampede - PowerEdge C8220, Xeon E5-2680 8C 2.700GHz, Infiniband FDR, Intel
  Xeon Phi SE10P
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: Texas Advanced Computing Center/Univ.
  of Texas System 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 URL: http://www.tacc.utexas.edu/stampede 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: Dell Cores: 462,462 Linpack Performance (Rmax) 5,168.1 TFlop/s
  Theoretical Peak (Rpeak) 8,520.1 TFlop/s Power: 4,510.00 kW 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Memory: 192,192 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Infiniband FDR 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Linux 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Compiler: Intel Math 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Library: MKL 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 MPI: MVAPICH2
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 JUQUEEN - BlueGene/Q, Power BQC 16C 1.600GHz, Custom Interconnect
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: Forschungszentrum Juelich (FZJ) System 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 URL: http://www.fz-juelich.de/ias/jsc/EN/Expertise/Supercomputers/JUQUEEN/JUQUEEN_
 node.html 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: IBM 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 458,752 Linpack Performance (Rmax) 5,008.9 TFlop/s Theoretical Peak
  (Rpeak) 5,872.0 TFlop/s 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 2,301.00 kW 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Memory: 458,752 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Custom Interconnect 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Linux 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 Vulcan - BlueGene/Q, Power BQC 16C 1.600GHz, Custom Interconnect
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: DOE/NNSA/LLNL 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: IBM 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 393,216 Linpack Performance (Rmax) 4,293.3 TFlop/s Theoretical Peak
  (Rpeak) 5,033.2 TFlop/s 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 1,972.00 kW Memory: 393,216 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Custom Interconnect 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Linux 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 SuperMUC - iDataPlex DX360M4, Xeon E5-2680 8C 2.70GHz, Infiniband FDR
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: Leibniz Rechenzentrum System 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 URL: http://www.lrz.de/services/compute/supermuc/ 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: IBM 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Cores: 147,456 Linpack Performance (Rmax) 2,897.0 TFlop/s Theoretical Peak
  (Rpeak) 3,185.1 TFlop/s 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Power: 3,422.67 kW 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Memory:
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Infiniband FDR 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Linux 
 \end_layout
 
 \begin_layout Section
-
-\size footnotesize
 Tianhe-1A - NUDT YH MPP, Xeon X5670 6C 2.93 GHz, NVIDIA 2050
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Site: National Supercomputing Center in Tianjin 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Manufacturer: NUDT Cores: 186,368 Linpack Performance (Rmax) 2,566.0 TFlop/s
  Theoretical Peak (Rpeak) 4,701.0 TFlop/s Power: 4,040.00 kW 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Memory: 229,376 GB 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Interconnect: Proprietary 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Operating System: Linux 
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 Compiler: icc Math Library:
 \end_layout
 
 \begin_layout Itemize
-
-\size footnotesize
 MPI: MPICH2 with a custom GLEX channel 
 \end_layout
 
