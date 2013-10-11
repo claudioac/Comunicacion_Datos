@@ -1,0 +1,391 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Tarea N°2
+\end_layout
+
+\begin_layout Date
+10/10/13
+\end_layout
+
+\begin_layout Author
+Claudio Acuña, Guillermo Rojas, Cristian Garrido, José Acuña.
+\end_layout
+
+\begin_layout Abstract
+Desarrollar 4 preguntas del capitulo uno que se encuentra en reko.
+\end_layout
+
+\begin_layout Section
+2.
+ Una alternativa a una LAN es simplemente un enorme sistema de compartición
+ de tiempo con terminales para todos los usuarios.
+ Mencione dos ventajas de un sistema cliente-servidor que utilice una LAN.
+\end_layout
+
+\begin_layout Subsection
+Recursos centralizados: 
+\end_layout
+
+\begin_layout Standard
+Debido a que el servidor es el centro de la red, puede administrar los recursos
+ que son comunes a todos los usuarios, por ejemplo: una base de datos centraliza
+da se utilizaría para evitar problemas provocados por datos contradictorios
+ y redundantes.
+\end_layout
+
+\begin_layout Subsection
+Red escalable
+\end_layout
+
+\begin_layout Standard
+gracias a esta arquitectura, es posible quitar o agregar clientes sin afectar
+ el funcionamiento de la red y sin la necesidad de realizar mayores modificacion
+es.
+\end_layout
+
+\begin_layout Subsection
+21.
+ Mencione dos similitudes entre los modelos de referencia OSI y TCP/IP.
+ A continuación mencione dos diferencias entre ellos.
+\end_layout
+
+\begin_layout Subsubsection
+Similitudes: 
+\end_layout
+
+\begin_layout Itemize
+Ambos se dividen en capas.
+\end_layout
+
+\begin_layout Itemize
+Ambos tienen capas de aplicación, aunque incluyen servicios muy distintos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Ambos tienen capas de transporte y de red similares.
+ 
+\end_layout
+
+\begin_layout Itemize
+Se supone que la tecnología es de conmutación por paquetes (no de conmutación
+ por circuito).
+\end_layout
+
+\begin_layout Subsubsection
+Diferencias: - 
+\end_layout
+
+\begin_layout Itemize
+TCP/IP combina las funciones de la capa de presentación y de sesión en la
+ capa de aplicación.
+ 
+\end_layout
+
+\begin_layout Itemize
+TCP/IP combina la capas de enlace de datos y la capa física del modelo OSI
+ en una sola capa.
+\end_layout
+
+\begin_layout Itemize
+Los protocolos TCP/IP son los estándares en torno a los cuales se desarrolló
+ la Internet, de modo que la credibilidad del modelo TCP/IP se debe en gran
+ parte a sus protocolos.
+ 
+\end_layout
+
+\begin_layout Itemize
+En comparación, las redes típicas no se desarrollan normalmente a partir
+ del protocolo OSI, aunque el modelo OSI se usa como guía.
+\end_layout
+
+\begin_layout Subsection
+33.
+ Haga una lista de sus actividades cotidianas en las cuales intervengan
+ las redes de computadoras.
+ ¿De qué manera se alteraría su vida si estas redes fueran súbitamente desconect
+adas?
+\end_layout
+
+\begin_layout Standard
+-Pago de Cuentas -Compras -Estudio Universitario (Tareas, Trabajos, Informes,
+ etc.) -Comunicación mediante mensajes telefonicos como “Whatsapp” -Correos
+ Electronicos -Tramites Tributarios -Noticias Nacionales y Internacionales
+ -Consulta de Concentración de Notas Universitarias.
+\end_layout
+
+\begin_layout Standard
+Si las tareas que se reaizan en el diario vivir se ven abrustamente afectadas
+ debido a un corte en el suministro de las redes computacionales como lo
+ es el internet u otros, se ven ampliamente afectadas debido a la costrumbre
+ que se hizo en la realización de estas, y dejando obsoleto la realización
+ de la actividad antes de que existiera una red computacional entremedio
+ para su desarrollo.
+ 
+\end_layout
+
+\begin_layout Standard
+Esto afecta tanto en el ambito de cambio de actitud de la persona al tener
+ que realizar las actividades nuevamente en forma manual (sin una red computacio
+nal), y modificar su forma casi de vivir en su totalidad para realizar dichas
+ actividades, debido a la costumbre que tiene la persona de realizar su
+ actividad con una red computacional, donde queda en su mente que sin una
+ red computacional no tiene otra opción de desarrollo de su actividad, donde
+ se ve en la obligación de desarrollarlo en forma manual(sin una red computacion
+al).
+\end_layout
+
+\begin_layout Subsection
+36.
+ Vaya al sitio Web de la IETF, www.ietf.org, y entérese de lo que hacen ahí.
+ Elija un proyecto y escriba un informe de media página acerca del problema
+ y la solución que propone.
+\end_layout
+
+\begin_layout Subsubsection
+Internet Engineering Task Force (IETF) 
+\end_layout
+
+\begin_layout Standard
+Internet Engineering Task Force (IETF) (en español Grupo de Trabajo de Ingenierí
+a de Internet ) es una organización internacional abierta de normalización,
+ que tiene como objetivos el contribuir a la ingeniería de Internet, actuando
+ en diversas áreas, como transporte, encaminamiento, seguridad.
+ Fue creada en EE.
+ UU.
+ en 1986.
+ El IETF es mundialmente conocido por ser la entidad que regula las propuestas
+ y los estándares de Internet, conocidos como RFC.
+\end_layout
+
+\begin_layout Standard
+Es una institución sin fines de lucro y abierta a la participación de cualquier
+ persona, cuyo objetivo es velar para que la arquitectura de Internet y
+ los protocolos que la conforman funcionen correctamente.
+\end_layout
+
+\begin_layout Subsubsection
+RCF
+\end_layout
+
+\begin_layout Standard
+Las Request for Comments ("Petición De Comentarios" en español) son una
+ serie de notas sobre Internet, y sobre sistemas que se conectan a internet,
+ que comenzaron a publicarse en 1969.
+ Se abrevian como RFC.
+\end_layout
+
+\begin_layout Standard
+Cada una de ellas individualmente es un documento cuyo contenido es una
+ propuesta oficial para un nuevo protocolo de la red Internet (originalmente
+ de ARPANET), que se explica con todo detalle para que en caso de ser aceptado
+ pueda ser implementado sin ambigüedades.
+\end_layout
+
+\begin_layout Standard
+Cualquiera puede enviar una propuesta de RFC a la IETF, pero es ésta la
+ que decide finalmente si el documento se convierte en una RFC o no.
+ Si luego resulta lo suficientemente interesante, puede llegar a convertirse
+ en un estándar de Internet.
+\end_layout
+
+\begin_layout Standard
+Cada RFC tiene un título y un número asignado, que no puede repetirse ni
+ eliminarse aunque el documento se quede obsoleto.
+\end_layout
+
+\begin_layout Standard
+Cada protocolo de los que hoy existen en Internet tiene asociado un RFC
+ que lo define, y posiblemente otros RFC adicionales que lo amplían.
+ Por ejemplo el protocolo IP se detalla en el RFC 791, el FTP en el RFC
+ 959, y el HTTP (escrito por Tim Berners-Lee, entre otros) el RFC 2616.
+\end_layout
+
+\begin_layout Standard
+Las RFC se redactan en inglés según una estructura específica y en formato
+ de texto ASCII.
+\end_layout
+
+\begin_layout Standard
+Antes de que un documento tenga la consideración de RFC, debe seguir un
+ proceso muy estricto para asegurar su calidad y coherencia.
+ Cuando lo consigue, prácticamente ya es un protocolo formal al que probablement
+e se interpondrán pocas objeciones, por lo que el sentido de su nombre como
+ petición de comentarios ha quedado prácticamente obsoleto, dado que las
+ críticas y sugerencias se producen en las fases anteriores.
+ De todos modos, el nombre de RFC se mantiene por razones históricas.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Ejemplo RCF
+\end_layout
+
+\begin_layout Quotation
+Red Grupo de Trabajo S.
+ Crocker Petición de Comentarios: 24 UCLA 21 de noviembre 69
+\end_layout
+
+\begin_layout Quotation
+Convenciones de la documentación
+\end_layout
+
+\begin_layout Quotation
+Esta nota es una revisión de NWG / RFC 10 y 16.
+\end_layout
+
+\begin_layout Quotation
+El Grupo de Trabajo de la Red está formado por personas interesadas en vigor
+ o posibles sitios de la red ARPA .
+\end_layout
+
+\begin_layout Quotation
+Composición no está cerrada.
+\end_layout
+
+\begin_layout Quotation
+El Grupo de Trabajo de la Red ( NWG ) tiene que ver con el software del
+ host , las estrategias para el uso de la red y la experiencia inicial con
+ el red .
+\end_layout
+
+\begin_layout Quotation
+La documentación de los esfuerzos del NWG es a través de las notas como
+ ésta .
+ Las notas son estimuladas en cualquier sitio e incluidos en esta serie
+ .
+\end_layout
+
+\begin_layout Quotation
+CONTENIDO
+\end_layout
+
+\begin_layout Quotation
+El contenido de un documento NWG puede ser cualquier pensamiento , sugerencia
+ , etc relacionados al software HOST u otro aspecto de la red.
+ Las notas son alentadas para ser oportunas en lugar de pulidas .
+ Las posiciones filosóficas sin ejemplos u otros detalles , sugerencias
+ específicas o técnicas de implementación sin introducción o explicación
+ de fondo , y las preguntas explícitas sin ningún intento de respuestas
+ son aceptables .
+ La longitud mínima de una nota NWG es una frase.
+\end_layout
+
+\begin_layout Quotation
+Estas normas ( o la falta de ellos) están explícitamente por dos razones.
+ En primer lugar , hay una tendencia a considerar que una declaración por
+ escrito que ipso facto autoridad, y esperamos promover el intercambio y
+ la discusión de considerablemente menos que las ideas autoritarias .
+ En segundo lugar, no es un producto natural indecisión para publicar algo
+ sin pulir , y esperamos facilitar esta inhibición .
+\end_layout
+
+\begin_layout Quotation
+Cada nota NWG debe llevar la siguiente información :
+\end_layout
+
+\begin_layout Quotation
+1 .
+ "Grupo de Trabajo de la Red " "Solicitud de Comnments : X" (X subrayado
+ ) donde X es un número de serie .
+ Los números de serie son asignado por Steve Crocker de la UCLA.
+\end_layout
+
+\begin_layout Quotation
+2 .
+ Autor y afiliación.
+\end_layout
+
+\begin_layout Quotation
+3 .
+ Fecha.
+\end_layout
+
+\begin_layout Quotation
+4 .
+ Título.
+ El título no tiene por qué ser único .
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+El texto original puede encontrarse 
+\begin_inset CommandInset href
+LatexCommand href
+name "aquí"
+target "http://www.rfc-editor.org/rfc/rfc24.txt"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
