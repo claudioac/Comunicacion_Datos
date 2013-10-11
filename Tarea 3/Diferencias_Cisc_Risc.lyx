@@ -1,0 +1,404 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Arquitectura Risc y Cisc
+\end_layout
+
+\begin_layout Author
+Claudio Acuña, Guillermo Rojas, Cristian Garrido, José Acuña
+\end_layout
+
+\begin_layout Date
+08/10/13
+\end_layout
+
+\begin_layout Section
+Introducción
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una de las primeras decisiones a la hora de diseñar un microprocesador es
+ decidir cual será su juego de instrucciones.
+ La decisión por dos razones; primero, el juego de instrucciones decide
+ el diseño físico del conjunto; segundo, cualquier operación que deba ejecutarse
+ en el microprocesador deberá poder ser descrita en términos de un lenguaje
+ de estas instrucciones.
+\begin_inset Newline newline
+\end_inset
+
+Frente a esta cuestión caben dos filosofías de diseño; máquinas denominadas
+ CISC y máquinas denominadas RISC.
+\end_layout
+
+\begin_layout Section
+Arquitectura Risc
+\end_layout
+
+\begin_layout Standard
+En la arquitectura computacional, RISC (del inglés reduced instruction set
+ computer) es un tipo de microprocesador con las siguientes características
+ fundamentales:
+\end_layout
+
+\begin_layout Itemize
+Instrucciones de tamaño fijo y presentadas en un reducido número de formatos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Sólo las instrucciones de carga y almacenamiento acceden a la memoria de
+ datos.
+ 
+\end_layout
+
+\begin_layout Standard
+El objetivo de diseñar máquinas con esta arquitectura es posibilitar la
+ segmentación y el paralelismo en la ejecución de instrucciones y reducir
+ los accesos a memoria.
+\begin_inset Newline newline
+\end_inset
+
+Las máquinas RISC protagonizan la tendencia actual de construcción de microproce
+sadores.
+ PowerPC, DEC Alpha, MIPS, ARM, SPARC… son ejemplos de algunos de ellos.
+ RISC es una filosofía de diseño de CPU para computadora que está a favor
+ de conjuntos de instrucciones pequeñas y simples que toman menor tiempo
+ para ejecutarse.
+\begin_inset Newline newline
+\end_inset
+
+El tipo de procesador más comúnmente utilizado en equipos de escritorio,
+ el x86, está basado en CISC en lugar de RISC, aunque las versiones más
+ nuevas traducen instrucciones basadas en CISC x86 a instrucciones más simples
+ basadas en RISC para uso interno antes de su ejecución.
+\begin_inset Newline newline
+\end_inset
+
+La idea fue inspirada por el hecho de que muchas de las características
+ que eran incluidas en los diseños tradicionales de CPU para aumentar la
+ velocidad estaban siendo ignoradas por los programas que eran ejecutados
+ en ellas.
+ Además, la velocidad del procesador en relación con la memoria de la computador
+a que accedía era cada vez más alta.
+ Esto con llevó la aparición de numerosas técnicas para reducir el procesamiento
+ dentro del CPU, así como de reducir el número total de accesos a memoria.
+\end_layout
+
+\begin_layout Subsection
+Caracteristicas:
+\end_layout
+
+\begin_layout Standard
+En pocas palabras esto significa que para cualquier nivel de desempeño dado,
+ un chip RISC típicamente tendrá menos transistores dedicados a la lógica
+ principal.
+ Esto permite a los diseñadores una flexibilidad considerable; así pueden,
+ por ejemplo:
+\end_layout
+
+\begin_layout Itemize
+Incrementar el tamaño del conjunto de registros.
+ 
+\end_layout
+
+\begin_layout Itemize
+Mayor velocidad en la ejecución de instrucciones.
+ 
+\end_layout
+
+\begin_layout Itemize
+Implementar medidas para aumentar el paralelismo interno.
+ 
+\end_layout
+
+\begin_layout Itemize
+Añadir cachés enormes.
+ Añadir otras funcionalidades, como E/S y relojes para minicontroladores.
+ 
+\end_layout
+
+\begin_layout Itemize
+Construir los chips en líneas de producción antiguas que de otra manera
+ no serían utilizables.
+ 
+\end_layout
+
+\begin_layout Itemize
+No ampliar las funcionalidades, y por lo tanto ofrecer el chip para aplicaciones
+ de bajo consumo de energía o de tamaño limitado.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Las características que generalmente son encontradas en los diseños RISC
+ son:
+\end_layout
+
+\begin_layout Itemize
+Codificación uniforme de instrucciones, lo que permite una de codificación
+ más rápida.
+ 
+\end_layout
+
+\begin_layout Itemize
+Un conjunto de registros homogéneo, permitiendo que cualquier registro sea
+ utilizado en cualquier contexto y así simplificar el diseño del compilador.
+ 
+\end_layout
+
+\begin_layout Itemize
+Modos de direccionamiento simple con modos más complejos reemplazados por
+ secuencias de instrucciones aritméticas simples.
+ 
+\end_layout
+
+\begin_layout Itemize
+Los tipos de datos soportados en el hardware no se encuentran en una máquina
+ RISC.
+ 
+\end_layout
+
+\begin_layout Itemize
+Los diseños RISC también prefieren utilizar como característica un modelo
+ de memoria Harvard, donde los conjuntos de instrucciones y los conjuntos
+ de datos están conceptualmente separados.
+ 
+\end_layout
+
+\begin_layout Section
+Arquitectura Cisc
+\end_layout
+
+\begin_layout Standard
+En la arquitectura computacional, CISC (complex instruction set computer)
+ es un modelo de arquitectura de computadora.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Los microprocesadores CISC tienen un conjunto de instrucciones que se caracteriz
+a por ser muy amplio y permitir operaciones complejas entre operandos situados
+ en la memoria o en los registros internos, en contraposición a la arquitectura
+ RISC.
+\begin_inset Newline newline
+\end_inset
+
+Este tipo de arquitectura dificulta el paralelismo entre instrucciones,
+ por lo que, en la actualidad, la mayoría de los sistemas CISC de alto rendimien
+to implementan un sistema que convierte dichas instrucciones complejas en
+ varias instrucciones simples del tipo RISC, llamadas generalmente microinstrucc
+iones.
+\begin_inset Newline newline
+\end_inset
+
+Los CISC pertenecen a la primera corriente de construcción de procesadores,
+ antes del desarrollo de los RISC.
+ Ejemplos de ellos son: Motorola 68000, Zilog Z80 y toda la familia Intel
+ x86 usada en la mayoría de las computadoras personales actuales.
+\begin_inset Newline newline
+\end_inset
+
+Para realizar una sola instrucción un chip CISC requiere de cuatro a diez
+ ciclos de reloj.
+\end_layout
+
+\begin_layout Subsection
+Ejemplo de microprocesadores basados en la tecnología CISC:
+\end_layout
+
+\begin_layout Itemize
+Intel 8086, 8088, 80286, 80386, 80486.
+ 
+\end_layout
+
+\begin_layout Itemize
+Motorola 68000, 68010, 68020, 68030, 6840.
+\end_layout
+
+\begin_layout Subsection
+Ejemplo de microprocesadores basados en la tecnología CISC:
+\end_layout
+
+\begin_layout Itemize
+MIPS, Millions Instruction Per Second.
+ 
+\end_layout
+
+\begin_layout Itemize
+PA-RISC, Hewlett Packard.
+ 
+\end_layout
+
+\begin_layout Itemize
+SPARC, Scalable Processor Architecture, Sun Microsystems.
+ 
+\end_layout
+
+\begin_layout Itemize
+POWER PC, Apple, Motorola e IBM.
+\end_layout
+
+\begin_layout Section
+Diferencias Entre Cisc y Risc
+\end_layout
+
+\begin_layout Subsection
+Cisc
+\end_layout
+
+\begin_layout Itemize
+Reduce la dificultad de crear compiladores.
+ 
+\end_layout
+
+\begin_layout Itemize
+Permite reducir el costo total del sistema.
+ 
+\end_layout
+
+\begin_layout Itemize
+Reduce los costos de creación de sftware.
+ 
+\end_layout
+
+\begin_layout Itemize
+Mejora la compactación de código.
+ 
+\end_layout
+
+\begin_layout Itemize
+Facilita la depuración de errores.
+\end_layout
+
+\begin_layout Subsection
+Risc
+\end_layout
+
+\begin_layout Itemize
+La CPU trabaja mas rápido al utilizar menos ciclos de reloj para ejecutar
+ instrucciones.
+ 
+\end_layout
+
+\begin_layout Itemize
+Utiliza un sistema de direcciones no destructivas en RAM.
+ Eso significa que a diferencia de CISC, RISC conserva después de realizar
+ sus operaciones en memoria los dos operandos y su resultado, reduciendo
+ la ejecución de nuevas operaciones.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cada instrucción puede ser ejecutada en un solo ciclo del CPU.
+\end_layout
+
+\begin_layout Subsection
+Cuadro Comparativo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !b
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Cisc v/s Risc
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/claudio/Descargas/1368879_10202193154888787_412096919_n.jpg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
