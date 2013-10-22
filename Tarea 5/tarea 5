@@ -1,0 +1,430 @@
+mito-pc                   
+    descripción: Equipo de escritorio
+    producto: System Product Name (To Be Filled By O.E.M.)
+    fabricante: System manufacturer
+    versión: System Version
+    serie: System Serial Number
+    anchura: 64 bits
+    capacidades: vsyscall32
+    configuración: boot=normal chassis=desktop family=To Be Filled By O.E.M. sku=To Be Filled By O.E.M. uuid=00EC93E1-B8B9-DE11-9344-90E6BA777E3B
+  *-core
+       descripción: Placa base
+       producto: P5QL-ASUS-SE
+       fabricante: ASUSTeK Computer INC.
+       id físico: 0
+       versión: Rev X.0x
+       serie: 102052130002686
+       ranura: To Be Filled By O.E.M.
+     *-firmware
+          descripción: BIOS
+          fabricante: American Megatrends Inc.
+          id físico: 0
+          versión: 0613
+          date: 08/25/2009
+          tamaño: 64KiB
+          capacidad: 960KiB
+          capacidades: isa pci pnp apm upgrade shadowing escd cdboot bootselect socketedrom edd int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer int10video acpi usb ls120boot zipboot biosbootspecification
+     *-cpu
+          descripción: CPU
+          producto: Intel(R) Core(TM)2 Duo CPU     E6550  @ 2.33GHz
+          fabricante: Intel Corp.
+          id físico: 4
+          información del bus: cpu@0
+          versión: Intel(R) Core(TM)2 Duo CPU E6550 @ 2.33GHz
+          serie: To Be Filled By O.E.M.
+          ranura: LGA775
+          tamaño: 2336MHz
+          capacidad: 3800MHz
+          anchura: 64 bits
+          reloj: 333MHz
+          capacidades: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm lahf_lm dtherm tpr_shadow vnmi flexpriority cpufreq
+          configuración: cores=2 enabledcores=2 threads=2
+        *-cache:0
+             descripción: L1 caché
+             id físico: 5
+             ranura: L1-Cache
+             tamaño: 64KiB
+             capacidad: 64KiB
+             capacidades: internal write-back data
+        *-cache:1
+             descripción: L2 caché
+             id físico: 6
+             ranura: L2-Cache
+             tamaño: 4MiB
+             capacidad: 4MiB
+             capacidades: internal write-back unified
+     *-memory
+          descripción: Memoria de sistema
+          id físico: 2c
+          ranura: Placa de sistema o placa base
+          tamaño: 2GiB
+        *-bank:0
+             descripción: DIMM DDR2 Síncrono 667 MHz (1,5 ns)
+             producto: PartNum0
+             fabricante: Manufacturer0
+             id físico: 0
+             serie: SerNum0
+             ranura: DIMM A1
+             tamaño: 2GiB
+             anchura: 64 bits
+             reloj: 667MHz (1.5ns)
+        *-bank:1
+             descripción: DIMMProject-Id-Version: lshwReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>POT-Creation-Date: 2009-10-08 14:02+0200PO-Revision-Date: 2012-03-14 06:38+0000Last-Translator: Paco Molinero <paco@byasl.com>Language-Team: Spanish <es@li.org>MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitX-Launchpad-Export-Date: 2013-01-28 19:37+0000X-Generator: Launchpad (build 16451) [vacío]
+             producto: PartNum2
+             fabricante: Manufacturer2
+             id físico: 1
+             serie: SerNum2
+             ranura: DIMM B1
+     *-pci
+          descripción: Host bridge
+          producto: 4 Series Chipset DRAM Controller
+          fabricante: Intel Corporation
+          id físico: 100
+          información del bus: pci@0000:00:00.0
+          versión: 03
+          anchura: 32 bits
+          reloj: 33MHz
+        *-pci:0
+             descripción: PCI bridge
+             producto: 4 Series Chipset PCI Express Root Port
+             fabricante: Intel Corporation
+             id físico: 1
+             información del bus: pci@0000:00:01.0
+             versión: 03
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci pm msi pciexpress normal_decode bus_master cap_list
+             configuración: driver=pcieport
+             recursos: irq:40 ioport:c000(size=4096) memoria:fd000000-fe9fffff ioport:de000000(size=301989888)
+           *-display
+                descripción: VGA compatible controller
+                producto: GT216 [GeForce GT 220]
+                fabricante: NVIDIA Corporation
+                id físico: 0
+                información del bus: pci@0000:01:00.0
+                versión: a2
+                anchura: 64 bits
+                reloj: 33MHz
+                capacidades: pm msi pciexpress vga_controller bus_master cap_list rom
+                configuración: driver=nvidia latency=0
+                recursos: irq:16 memoria:fd000000-fdffffff memoria:e0000000-efffffff memoria:de000000-dfffffff ioport:cc00(size=128) memoria:fe900000-fe97ffff
+           *-multimedia
+                descripción: Audio device
+                producto: High Definition Audio Controller
+                fabricante: NVIDIA Corporation
+                id físico: 0.1
+                información del bus: pci@0000:01:00.1
+                versión: a1
+                anchura: 32 bits
+                reloj: 33MHz
+                capacidades: pm msi pciexpress bus_master cap_list
+                configuración: driver=snd_hda_intel latency=0
+                recursos: irq:16 memoria:fe9fc000-fe9fffff
+        *-usb:0
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB UHCI Controller #4
+             fabricante: Intel Corporation
+             id físico: 1a
+             información del bus: pci@0000:00:1a.0
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: uhci bus_master cap_list
+             configuración: driver=uhci_hcd latency=0
+             recursos: irq:16 ioport:b800(size=32)
+        *-usb:1
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB UHCI Controller #5
+             fabricante: Intel Corporation
+             id físico: 1a.1
+             información del bus: pci@0000:00:1a.1
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: uhci bus_master cap_list
+             configuración: driver=uhci_hcd latency=0
+             recursos: irq:21 ioport:b880(size=32)
+        *-usb:2
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB UHCI Controller #6
+             fabricante: Intel Corporation
+             id físico: 1a.2
+             información del bus: pci@0000:00:1a.2
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: uhci bus_master cap_list
+             configuración: driver=uhci_hcd latency=0
+             recursos: irq:18 ioport:bc00(size=32)
+        *-usb:3
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB2 EHCI Controller #2
+             fabricante: Intel Corporation
+             id físico: 1a.7
+             información del bus: pci@0000:00:1a.7
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pm debug ehci bus_master cap_list
+             configuración: driver=ehci-pci latency=0
+             recursos: irq:18 memoria:fcffe000-fcffe3ff
+        *-multimedia
+             descripción: Audio device
+             producto: 82801JI (ICH10 Family) HD Audio Controller
+             fabricante: Intel Corporation
+             id físico: 1b
+             información del bus: pci@0000:00:1b.0
+             versión: 00
+             anchura: 64 bits
+             reloj: 33MHz
+             capacidades: pm msi pciexpress bus_master cap_list
+             configuración: driver=snd_hda_intel latency=0
+             recursos: irq:45 memoria:fcff8000-fcffbfff
+        *-pci:1
+             descripción: PCI bridge
+             producto: 82801JI (ICH10 Family) PCI Express Root Port 1
+             fabricante: Intel Corporation
+             id físico: 1c
+             información del bus: pci@0000:00:1c.0
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuración: driver=pcieport
+             recursos: irq:41 ioport:1000(size=4096) memoria:80000000-803fffff ioport:fbf00000(size=1048576)
+        *-pci:2
+             descripción: PCI bridge
+             producto: 82801JI (ICH10 Family) PCI Express Root Port 5
+             fabricante: Intel Corporation
+             id físico: 1c.4
+             información del bus: pci@0000:00:1c.4
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuración: driver=pcieport
+             recursos: irq:42 ioport:e000(size=4096) memoria:feb00000-febfffff ioport:80400000(size=2097152)
+           *-ide
+                descripción: IDE interface
+                producto: JMB368 IDE controller
+                fabricante: JMicron Technology Corp.
+                id físico: 0
+                información del bus: pci@0000:03:00.0
+                versión: 00
+                anchura: 32 bits
+                reloj: 33MHz
+                capacidades: ide pm pciexpress msi bus_master cap_list rom
+                configuración: driver=pata_jmicron latency=0
+                recursos: irq:16 ioport:ec00(size=8) ioport:e880(size=4) ioport:e800(size=8) ioport:e480(size=4) ioport:e400(size=16) memoria:febf0000-febfffff
+        *-pci:3
+             descripción: PCI bridge
+             producto: 82801JI (ICH10 Family) PCI Express Root Port 6
+             fabricante: Intel Corporation
+             id físico: 1c.5
+             información del bus: pci@0000:00:1c.5
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuración: driver=pcieport
+             recursos: irq:43 ioport:d000(size=4096) memoria:fea00000-feafffff ioport:fbe00000(size=1048576)
+           *-network
+                descripción: Ethernet interface
+                producto: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+                fabricante: Realtek Semiconductor Co., Ltd.
+                id físico: 0
+                información del bus: pci@0000:02:00.0
+                nombre lógico: eth0
+                versión: 02
+                serie: 90:e6:ba:77:7e:3b
+                tamaño: 1Gbit/s
+                capacidad: 1Gbit/s
+                anchura: 64 bits
+                reloj: 33MHz
+                capacidades: pm msi pciexpress msix vpd bus_master cap_list rom ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+                configuración: autonegotiation=on broadcast=yes driver=r8169 driverversion=2.3LK-NAPI duplex=full ip=192.168.50.11 latency=0 link=yes multicast=yes port=MII speed=1Gbit/s
+                recursos: irq:44 ioport:d800(size=256) memoria:fbeff000-fbefffff memoria:fbee0000-fbeeffff memoria:feaf0000-feafffff
+        *-usb:4
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB UHCI Controller #1
+             fabricante: Intel Corporation
+             id físico: 1d
+             información del bus: pci@0000:00:1d.0
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: uhci bus_master cap_list
+             configuración: driver=uhci_hcd latency=0
+             recursos: irq:23 ioport:b080(size=32)
+        *-usb:5
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB UHCI Controller #2
+             fabricante: Intel Corporation
+             id físico: 1d.1
+             información del bus: pci@0000:00:1d.1
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: uhci bus_master cap_list
+             configuración: driver=uhci_hcd latency=0
+             recursos: irq:19 ioport:b400(size=32)
+        *-usb:6
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB UHCI Controller #3
+             fabricante: Intel Corporation
+             id físico: 1d.2
+             información del bus: pci@0000:00:1d.2
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: uhci bus_master cap_list
+             configuración: driver=uhci_hcd latency=0
+             recursos: irq:18 ioport:b480(size=32)
+        *-usb:7
+             descripción: USB controller
+             producto: 82801JI (ICH10 Family) USB2 EHCI Controller #1
+             fabricante: Intel Corporation
+             id físico: 1d.7
+             información del bus: pci@0000:00:1d.7
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pm debug ehci bus_master cap_list
+             configuración: driver=ehci-pci latency=0
+             recursos: irq:23 memoria:fcffc000-fcffc3ff
+        *-pci:4
+             descripción: PCI bridge
+             producto: 82801 PCI Bridge
+             fabricante: Intel Corporation
+             id físico: 1e
+             información del bus: pci@0000:00:1e.0
+             versión: 90
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: pci subtractive_decode bus_master cap_list
+        *-isa
+             descripción: ISA bridge
+             producto: 82801JIB (ICH10) LPC Interface Controller
+             fabricante: Intel Corporation
+             id físico: 1f
+             información del bus: pci@0000:00:1f.0
+             versión: 00
+             anchura: 32 bits
+             reloj: 33MHz
+             capacidades: isa bus_master cap_list
+             configuración: driver=lpc_ich latency=0
+             recursos: irq:0
+        *-ide:0
+             descripción: IDE interface
+             producto: 82801JI (ICH10 Family) 4 port SATA IDE Controller #1
+             fabricante: Intel Corporation
+             id físico: 1f.2
+             información del bus: pci@0000:00:1f.2
+             versión: 00
+             anchura: 32 bits
+             reloj: 66MHz
+             capacidades: ide pm bus_master cap_list
+             configuración: driver=ata_piix latency=0
+             recursos: irq:19 ioport:a000(size=8) ioport:9c00(size=4) ioport:9880(size=8) ioport:9800(size=4) ioport:9480(size=16) ioport:9400(size=16)
+        *-serial NO RECLAMADO
+             descripción: SMBus
+             producto: 82801JI (ICH10 Family) SMBus Controller
+             fabricante: Intel Corporation
+             id físico: 1f.3
+             información del bus: pci@0000:00:1f.3
+             versión: 00
+             anchura: 64 bits
+             reloj: 33MHz
+             configuración: latency=0
+             recursos: memoria:fcff6000-fcff60ff ioport:400(size=32)
+        *-ide:1
+             descripción: IDE interface
+             producto: 82801JI (ICH10 Family) 2 port SATA IDE Controller #2
+             fabricante: Intel Corporation
+             id físico: 1f.5
+             información del bus: pci@0000:00:1f.5
+             versión: 00
+             anchura: 32 bits
+             reloj: 66MHz
+             capacidades: ide pm bus_master cap_list
+             configuración: driver=ata_piix latency=0
+             recursos: irq:19 ioport:b000(size=8) ioport:ac00(size=4) ioport:a880(size=8) ioport:a800(size=4) ioport:a480(size=16) ioport:a400(size=16)
+     *-scsi:0
+          id físico: 1
+          nombre lógico: scsi1
+          capacidades: emulated
+        *-disk
+             descripción: ATA Disk
+             producto: SAMSUNG HD200HJ
+             id físico: 0.0.0
+             información del bus: scsi@1:0.0.0
+             nombre lógico: /dev/sda
+             versión: KF10
+             serie: S16KJ9CQ401114
+             tamaño: 186GiB (200GB)
+             capacidades: partitioned partitioned:dos
+             configuración: ansiversion=5 signature=43154314
+           *-volume:0
+                descripción: Windows NTFS volumen
+                id físico: 1
+                información del bus: scsi@1:0.0.0,1
+                nombre lógico: /dev/sda1
+                nombre lógico: /media/EE90857C90854C51
+                versión: 3.1
+                serie: 76ed9c4c-dda7-2440-972a-63dddd905a47
+                tamaño: 62GiB
+                capacidad: 62GiB
+                capacidades: primary bootable ntfs initialized
+                configuración: clustersize=4096 created=2011-07-07 12:04:14 filesystem=ntfs mount.fstype=fuseblk mount.options=rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 state=mounted
+           *-volume:1
+                descripción: Extended partition
+                id físico: 2
+                información del bus: scsi@1:0.0.0,2
+                nombre lógico: /dev/sda2
+                tamaño: 124GiB
+                capacidad: 124GiB
+                capacidades: primary extended partitioned partitioned:extended
+              *-logicalvolume:0
+                   descripción: HPFS/NTFS partition
+                   id físico: 5
+                   nombre lógico: /dev/sda5
+                   capacidad: 18GiB
+              *-logicalvolume:1
+                   descripción: HPFS/NTFS partition
+                   id físico: 6
+                   nombre lógico: /dev/sda6
+                   nombre lógico: /media/F048A77D48A740E8
+                   capacidad: 62GiB
+                   configuración: mount.fstype=fuseblk mount.options=rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 state=mounted
+              *-logicalvolume:2
+                   descripción: Linux swap / Solaris partition
+                   id físico: 7
+                   nombre lógico: /dev/sda7
+                   capacidad: 2046MiB
+                   capacidades: nofs
+              *-logicalvolume:3
+                   descripción: Linux filesystem partition
+                   id físico: 8
+                   nombre lógico: /dev/sda8
+                   nombre lógico: /
+                   capacidad: 41GiB
+                   configuración: mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,data=ordered state=mounted
+     *-scsi:1
+          id físico: 2
+          nombre lógico: scsi4
+          capacidades: emulated
+        *-cdrom
+             descripción: DVD-RAM writer
+             producto: DVD-RAM GH22NP20
+             fabricante: HL-DT-ST
+             id físico: 0.0.0
+             información del bus: scsi@4:0.0.0
+             nombre lógico: /dev/cdrom
+             nombre lógico: /dev/cdrw
+             nombre lógico: /dev/dvd
+             nombre lógico: /dev/dvdrw
+             nombre lógico: /dev/sr0
+             versión: 1.02
+             capacidades: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuración: ansiversion=5 status=nodisc
+
