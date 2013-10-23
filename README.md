@@ -24,3 +24,5 @@ Comunicación de Datos
 ==Tarea 7==
  Diseñar un generador de Bit de paridad par o impar.
 
+==Tarea 8== 
+Graficar en matlab las transformadas de Fourier.
