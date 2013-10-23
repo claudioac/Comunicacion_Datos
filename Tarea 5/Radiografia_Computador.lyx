@@ -1,0 +1,1776 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrartcl
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Radiografia a un Ordenador
+\end_layout
+
+\begin_layout Author
+Cristian Garrido, Claudio Acuña, Jose Acuña, Guillermo Rojas
+\end_layout
+
+\begin_layout Part*
+mito-pc:
+\end_layout
+
+\begin_layout Itemize
+descripción: Equipo de escritorio 
+\end_layout
+
+\begin_layout Itemize
+producto: System Product Name (To Be Filled By O.E.M.) 
+\end_layout
+
+\begin_layout Itemize
+fabricante: System manufacturer
+\end_layout
+
+\begin_layout Itemize
+versión: System Version 
+\end_layout
+
+\begin_layout Itemize
+serie: System Serial Number 
+\end_layout
+
+\begin_layout Itemize
+anchura: 64 bits 
+\end_layout
+
+\begin_layout Itemize
+capacidades: vsyscall32 
+\end_layout
+
+\begin_layout Itemize
+configuración: boot=normal chassis=desktop family=To Be Filled By O.E.M.
+ sku=To Be Filled By O.E.M.
+ uuid=00EC93E1-B8B9-DE11-9344-90E6BA777E3B
+\end_layout
+
+\begin_layout Section*
+core:
+\end_layout
+
+\begin_layout Itemize
+descripción: Placa base
+\end_layout
+
+\begin_layout Itemize
+producto: P5QL-ASUS-SE
+\end_layout
+
+\begin_layout Itemize
+fabricante: ASUSTeK Computer INC.
+ 
+\end_layout
+
+\begin_layout Itemize
+id físico: 0 
+\end_layout
+
+\begin_layout Itemize
+versión: Rev X.0x 
+\end_layout
+
+\begin_layout Itemize
+serie: 102052130002686 
+\end_layout
+
+\begin_layout Itemize
+ranura: To Be Filled By O.E.M.
+\end_layout
+
+\begin_layout Subsection*
+firmware:
+\end_layout
+
+\begin_layout Itemize
+descripción: BIOS 
+\end_layout
+
+\begin_layout Itemize
+fabricante: American Megatrends Inc.
+ 
+\end_layout
+
+\begin_layout Itemize
+id físico: 0 
+\end_layout
+
+\begin_layout Itemize
+versión: 0613 
+\end_layout
+
+\begin_layout Itemize
+date: 08/25/2009 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 64KiB 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 960KiB 
+\end_layout
+
+\begin_layout Itemize
+capacidades: isa pci pnp apm upgrade shadowing escd cdboot bootselect socketedro
+m edd int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboar
+d int14serial int17printer int10video acpi usb ls120boot zipboot biosbootspecifi
+cation
+\end_layout
+
+\begin_layout Subsection*
+cpu:
+\end_layout
+
+\begin_layout Itemize
+descripción: CPU 
+\end_layout
+
+\begin_layout Itemize
+producto: Intel(R) Core(TM)2 Duo CPU E6550 @ 2.33GHz 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corp.
+ 
+\end_layout
+
+\begin_layout Itemize
+id físico: 4 
+\end_layout
+
+\begin_layout Itemize
+información del bus: cpu@0 
+\end_layout
+
+\begin_layout Itemize
+versión: Intel(R) Core(TM)2 Duo CPU E6550 @ 2.33GHz 
+\end_layout
+
+\begin_layout Itemize
+serie: To Be Filled By O.E.M.
+ 
+\end_layout
+
+\begin_layout Itemize
+ranura: LGA775 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 2336MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 3800MHz 
+\end_layout
+
+\begin_layout Itemize
+anchura: 64 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 333MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8
+ apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2
+ ss ht tm pbe syscall nx constant_tsc arch_perfmon pebs bts rep_good nopl
+ aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm
+ lahf_lm dtherm tpr_shadow vnmi flexpriority cpufreq configuración: cores=2
+ enabledcores=2 threads=2
+\end_layout
+
+\begin_layout Subsubsection*
+cache: 0
+\end_layout
+
+\begin_layout Itemize
+descripción: L1 caché 
+\end_layout
+
+\begin_layout Itemize
+id físico: 5 ranura: L1-Cache 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 64KiB 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 64KiB 
+\end_layout
+
+\begin_layout Itemize
+capacidades: internal write-back data
+\end_layout
+
+\begin_layout Subsubsection*
+cache: 1
+\end_layout
+
+\begin_layout Itemize
+descripción: L2 caché 
+\end_layout
+
+\begin_layout Itemize
+id físico: 6 
+\end_layout
+
+\begin_layout Itemize
+ranura: L2-Cache 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 4MiB 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 4MiB
+\end_layout
+
+\begin_layout Itemize
+capacidades: internal write-back unified
+\end_layout
+
+\begin_layout Subsection*
+memory:
+\end_layout
+
+\begin_layout Itemize
+descripción: Memoria de sistema 
+\end_layout
+
+\begin_layout Itemize
+id físico: 2c
+\end_layout
+
+\begin_layout Itemize
+ranura: Placa de sistema o placa base 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 2GiB
+\end_layout
+
+\begin_layout Subsubsection*
+bank: 0
+\end_layout
+
+\begin_layout Itemize
+descripción: DIMM DDR2 Síncrono 667 MHz (1,5 ns) 
+\end_layout
+
+\begin_layout Itemize
+producto: PartNum0 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Manufacturer0 
+\end_layout
+
+\begin_layout Itemize
+id físico: 0
+\end_layout
+
+\begin_layout Itemize
+serie: SerNum0 
+\end_layout
+
+\begin_layout Itemize
+ranura: DIMM A1 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 2GiB 
+\end_layout
+
+\begin_layout Itemize
+anchura: 64 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 667MHz (1.5ns)
+\end_layout
+
+\begin_layout Subsubsection*
+bank: 1
+\end_layout
+
+\begin_layout Itemize
+descripción: DIMMProject-Id-Version: lshwReport-Msgid-Bugs-To: FULL NAME
+ <EMAIL@ADDRESS>POT-Creation-Date: 2009-10-08 14:02+0200PO-Revision-Date:
+ 2012-03-14 06:38+0000Last-Translator: Paco Molinero <paco@byasl.com>Language-Tea
+m: Spanish <es@li.org>MIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Cont
+ent-Transfer-Encoding: 8bitX-Launchpad-Export-Date: 2013-01-28 19:37+0000X-Gener
+ator: Launchpad (build 16451) [vacío] 
+\end_layout
+
+\begin_layout Itemize
+producto: PartNum2 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Manufacturer2
+\end_layout
+
+\begin_layout Itemize
+id físico: 1
+\end_layout
+
+\begin_layout Itemize
+serie: SerNum2 
+\end_layout
+
+\begin_layout Itemize
+ranura: DIMM B1
+\end_layout
+
+\begin_layout Subsection*
+pci:
+\end_layout
+
+\begin_layout Itemize
+descripción: Host bridge 
+\end_layout
+
+\begin_layout Itemize
+producto: 4 Series Chipset DRAM Controller 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 100 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:00.0 
+\end_layout
+
+\begin_layout Itemize
+versión: 03
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz
+\end_layout
+
+\begin_layout Subsubsection*
+pci: 0
+\end_layout
+
+\begin_layout Itemize
+descripción: PCI bridge 
+\end_layout
+
+\begin_layout Itemize
+producto: 4 Series Chipset PCI Express Root Port 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:01.0 
+\end_layout
+
+\begin_layout Itemize
+versión: 03 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pci pm msi pciexpress normal_decode bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=pcieport
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:40 ioport:c000(size=4096) memoria:fd000000-fe9fffff ioport:de00000
+0(size=301989888)
+\end_layout
+
+\begin_layout Subsubsection*
+display: 
+\end_layout
+
+\begin_layout Itemize
+descripción: VGA compatible controller
+\end_layout
+
+\begin_layout Itemize
+producto: GT216 [GeForce GT 220] 
+\end_layout
+
+\begin_layout Itemize
+fabricante: NVIDIA Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 0 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:01:00.0 
+\end_layout
+
+\begin_layout Itemize
+versión: a2 
+\end_layout
+
+\begin_layout Itemize
+anchura: 64 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pm msi pciexpress vga_controller bus_master cap_list rom 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=nvidia latency=0
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:16 memoria:fd000000-fdffffff memoria:e0000000-efffffff memoria:de0
+00000-dfffffff ioport:cc00(size=128) memoria:fe900000-fe97ffff
+\end_layout
+
+\begin_layout Subsubsection*
+multimedia:
+\end_layout
+
+\begin_layout Itemize
+descripción: Audio device 
+\end_layout
+
+\begin_layout Itemize
+producto: High Definition Audio Controller
+\end_layout
+
+\begin_layout Itemize
+fabricante: NVIDIA Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 0.1
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:01:00.1 
+\end_layout
+
+\begin_layout Itemize
+versión: a1 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz
+\end_layout
+
+\begin_layout Itemize
+capacidades: pm msi pciexpress bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=snd_hda_intel latency=0
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:16 memoria:fe9fc000-fe9fffff
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 0
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) USB UHCI Controller #4
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1a
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1a.0
+\end_layout
+
+\begin_layout Itemize
+versión: 00
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: uhci bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=uhci_hcd latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:16 ioport:b800(size=32)
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 1
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller producto: 82801JI (ICH10 Family) USB UHCI Controller
+ #5 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation id físico: 1a.1 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1a.1
+\end_layout
+
+\begin_layout Itemize
+versión: 00
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: uhci bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=uhci_hcd latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:21 ioport:b880(size=32)
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 2
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) USB UHCI Controller #6
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation
+\end_layout
+
+\begin_layout Itemize
+id físico: 1a.2
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1a.2
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: uhci bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=uhci_hcd latency=0
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:18 ioport:bc00(size=32)
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 3
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) USB2 EHCI Controller #2
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1a.7 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1a.7 
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pm debug ehci bus_master cap_list
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=ehci-pci latency=0
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:18 memoria:fcffe000-fcffe3ff
+\end_layout
+
+\begin_layout Subsubsection*
+multimedia:
+\end_layout
+
+\begin_layout Itemize
+descripción: Audio device
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) HD Audio Controller 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation id físico: 1b 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1b.0
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 64 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pm msi pciexpress bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=snd_hda_intel latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:45 memoria:fcff8000-fcffbfff
+\end_layout
+
+\begin_layout Subsubsection*
+pci: 1
+\end_layout
+
+\begin_layout Itemize
+descripción: PCI bridge
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) PCI Express Root Port 1 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1c 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1c.0
+\end_layout
+
+\begin_layout Itemize
+versión: 00
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pci pciexpress msi pm normal_decode bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=pcieport 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:41 ioport:1000(size=4096) memoria:80000000-803fffff ioport:fbf0000
+0(size=1048576)
+\end_layout
+
+\begin_layout Subsubsection*
+pci: 2
+\end_layout
+
+\begin_layout Itemize
+descripción: PCI bridge 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) PCI Express Root Port 5
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1c.4 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1c.4 
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pci pciexpress msi pm normal_decode bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=pcieport 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:42 ioport:e000(size=4096) memoria:feb00000-febfffff ioport:8040000
+0(size=2097152)
+\end_layout
+
+\begin_layout Subsubsection*
+ide:
+\end_layout
+
+\begin_layout Itemize
+descripción: IDE interface
+\end_layout
+
+\begin_layout Itemize
+producto: JMB368 IDE controller 
+\end_layout
+
+\begin_layout Itemize
+fabricante: JMicron Technology Corp.
+\end_layout
+
+\begin_layout Itemize
+id físico: 0
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:03:00.0 
+\end_layout
+
+\begin_layout Itemize
+versión: 00
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz
+\end_layout
+
+\begin_layout Itemize
+capacidades: ide pm pciexpress msi bus_master cap_list rom 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=pata_jmicron latency=0 recursos: irq:16 ioport:ec00(size=8
+) ioport:e880(size=4) ioport:e800(size=8) ioport:e480(size=4) ioport:e400(size=1
+6) memoria:febf0000-febfffff
+\end_layout
+
+\begin_layout Subsubsection*
+pci: 3
+\end_layout
+
+\begin_layout Itemize
+descripción: PCI bridge
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) PCI Express Root Port 6 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation
+\end_layout
+
+\begin_layout Itemize
+id físico: 1c.5 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1c.5
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz
+\end_layout
+
+\begin_layout Itemize
+capacidades: pci pciexpress msi pm normal_decode bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=pcieport
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:43 ioport:d000(size=4096) memoria:fea00000-feafffff ioport:fbe0000
+0(size=1048576)
+\end_layout
+
+\begin_layout Subsubsection*
+network:
+\end_layout
+
+\begin_layout Itemize
+descripción: Ethernet interface 
+\end_layout
+
+\begin_layout Itemize
+producto: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Realtek Semiconductor Co., Ltd.
+ 
+\end_layout
+
+\begin_layout Itemize
+id físico: 0 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:02:00.0 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: eth0
+\end_layout
+
+\begin_layout Itemize
+versión: 02 
+\end_layout
+
+\begin_layout Itemize
+serie: 90:e6:ba:77:7e:3b 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 1Gbit/s 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 1Gbit/s 
+\end_layout
+
+\begin_layout Itemize
+anchura: 64 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pm msi pciexpress msix vpd bus_master cap_list rom ethernet
+ physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+ 
+\end_layout
+
+\begin_layout Itemize
+configuración: autonegotiation=on broadcast=yes driver=r8169 driverversion=2.3LK-
+NAPI duplex=full ip=192.168.50.11 latency=0 link=yes multicast=yes port=MII
+ speed=1Gbit/s 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:44 ioport:d800(size=256) memoria:fbeff000-fbefffff memoria:fbee000
+0-fbeeffff memoria:feaf0000-feafffff
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 4
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) USB UHCI Controller #1 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation id físico: 1d
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1d.0
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz
+\end_layout
+
+\begin_layout Itemize
+capacidades: uhci bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=uhci_hcd latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:23 ioport:b080(size=32)
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 5
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) USB UHCI Controller #2 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation id físico: 1d.1 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1d.1 
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: uhci bus_master cap_list
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=uhci_hcd latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:19 ioport:b400(size=32)
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 6
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) USB UHCI Controller #3 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation id físico: 1d.2 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1d.2
+\end_layout
+
+\begin_layout Itemize
+versión: 00
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: uhci bus_master cap_list
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=uhci_hcd latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:18 ioport:b480(size=32)
+\end_layout
+
+\begin_layout Subsubsection*
+usb: 7
+\end_layout
+
+\begin_layout Itemize
+descripción: USB controller 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) USB2 EHCI Controller #1 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation id físico: 1d.7 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1d.7 
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pm debug ehci bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=ehci-pci latency=0
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:23 memoria:fcffc000-fcffc3ff
+\end_layout
+
+\begin_layout Subsubsection*
+pci: 4
+\end_layout
+
+\begin_layout Itemize
+descripción: PCI bridge
+\end_layout
+
+\begin_layout Itemize
+producto: 82801 PCI Bridge 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation
+\end_layout
+
+\begin_layout Itemize
+id físico: 1e 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1e.0 
+\end_layout
+
+\begin_layout Itemize
+versión: 90 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: pci subtractive_decode bus_master cap_list 
+\end_layout
+
+\begin_layout Subsubsection*
+isa:
+\end_layout
+
+\begin_layout Itemize
+descripción: ISA bridge 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JIB (ICH10) LPC Interface Controller
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation
+\end_layout
+
+\begin_layout Itemize
+id físico: 1f 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1f.0 
+\end_layout
+
+\begin_layout Itemize
+versión: 00
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: isa bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=lpc_ich latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:0
+\end_layout
+
+\begin_layout Subsubsection*
+ide: 0
+\end_layout
+
+\begin_layout Itemize
+descripción: IDE interface
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) 4 port SATA IDE Controller #1 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1f.2 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1f.2 
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 66MHz 
+\end_layout
+
+\begin_layout Itemize
+capacidades: ide pm bus_master cap_list 
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=ata_piix latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:19 ioport:a000(size=8) ioport:9c00(size=4) ioport:9880(size=8)
+ ioport:9800(size=4) ioport:9480(size=16) ioport:9400(size=16)
+\end_layout
+
+\begin_layout Subsubsection*
+serial NO RECLAMADO:
+\end_layout
+
+\begin_layout Itemize
+descripción: SMBus 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) SMBus Controller 
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation
+\end_layout
+
+\begin_layout Itemize
+id físico: 1f.3 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1f.3
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 64 bits
+\end_layout
+
+\begin_layout Itemize
+reloj: 33MHz 
+\end_layout
+
+\begin_layout Itemize
+configuración: latency=0
+\end_layout
+
+\begin_layout Itemize
+recursos: memoria:fcff6000-fcff60ff ioport:400(size=32)
+\end_layout
+
+\begin_layout Subsubsection*
+ide: 1
+\end_layout
+
+\begin_layout Itemize
+descripción: IDE interface 
+\end_layout
+
+\begin_layout Itemize
+producto: 82801JI (ICH10 Family) 2 port SATA IDE Controller #2
+\end_layout
+
+\begin_layout Itemize
+fabricante: Intel Corporation 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1f.5 
+\end_layout
+
+\begin_layout Itemize
+información del bus: pci@0000:00:1f.5 
+\end_layout
+
+\begin_layout Itemize
+versión: 00 
+\end_layout
+
+\begin_layout Itemize
+anchura: 32 bits 
+\end_layout
+
+\begin_layout Itemize
+reloj: 66MHz
+\end_layout
+
+\begin_layout Itemize
+capacidades: ide pm bus_master cap_list
+\end_layout
+
+\begin_layout Itemize
+configuración: driver=ata_piix latency=0 
+\end_layout
+
+\begin_layout Itemize
+recursos: irq:19 ioport:b000(size=8) ioport:ac00(size=4) ioport:a880(size=8)
+ ioport:a800(size=4) ioport:a480(size=16) ioport:a400(size=16)
+\end_layout
+
+\begin_layout Subsection*
+scsi: 0
+\end_layout
+
+\begin_layout Itemize
+id físico: 1
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: scsi1 
+\end_layout
+
+\begin_layout Itemize
+capacidades: emulated
+\end_layout
+
+\begin_layout Subsubsection*
+disk:
+\end_layout
+
+\begin_layout Itemize
+descripción: ATA Disk 
+\end_layout
+
+\begin_layout Itemize
+producto: SAMSUNG HD200HJ id físico: 0.0.0 
+\end_layout
+
+\begin_layout Itemize
+información del bus: scsi@1:0.0.0 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sda versión: KF10 
+\end_layout
+
+\begin_layout Itemize
+serie: S16KJ9CQ401114
+\end_layout
+
+\begin_layout Itemize
+tamaño: 186GiB (200GB) 
+\end_layout
+
+\begin_layout Itemize
+capacidades: partitioned partitioned:dos configuración: ansiversion=5 signature=
+43154314
+\end_layout
+
+\begin_layout Subsubsection*
+volume: 0
+\end_layout
+
+\begin_layout Itemize
+descripción: Windows NTFS volumen 
+\end_layout
+
+\begin_layout Itemize
+id físico: 1
+\end_layout
+
+\begin_layout Itemize
+información del bus: scsi@1:0.0.0,1
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sda1 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /media/EE90857C90854C51
+\end_layout
+
+\begin_layout Itemize
+versión: 3.1
+\end_layout
+
+\begin_layout Itemize
+serie: 76ed9c4c-dda7-2440-972a-63dddd905a47 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 62GiB
+\end_layout
+
+\begin_layout Itemize
+capacidad: 62GiB
+\end_layout
+
+\begin_layout Itemize
+capacidades: primary bootable ntfs initialized 
+\end_layout
+
+\begin_layout Itemize
+configuración: clustersize=4096 created=2011-07-07 12:04:14 filesystem=ntfs
+ mount.fstype=fuseblk mount.options=rw,nosuid,nodev,relatime,user_id=0,group_id=0,
+default_permissions,allow_other,blksize=4096 state=mounted 
+\end_layout
+
+\begin_layout Subsubsection*
+volume: 1
+\end_layout
+
+\begin_layout Itemize
+descripción: Extended partition 
+\end_layout
+
+\begin_layout Itemize
+id físico: 2
+\end_layout
+
+\begin_layout Itemize
+información del bus: scsi@1:0.0.0,2
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sda2 
+\end_layout
+
+\begin_layout Itemize
+tamaño: 124GiB 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 124GiB
+\end_layout
+
+\begin_layout Itemize
+capacidades: primary extended partitioned partitioned:extended
+\end_layout
+
+\begin_layout Subsubsection*
+logicalvolume: 0
+\end_layout
+
+\begin_layout Itemize
+descripción: HPFS/NTFS partition
+\end_layout
+
+\begin_layout Itemize
+id físico: 5 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sda5
+\end_layout
+
+\begin_layout Itemize
+capacidad: 18GiB 
+\end_layout
+
+\begin_layout Subsubsection*
+logicalvolume: 1
+\end_layout
+
+\begin_layout Itemize
+descripción: HPFS/NTFS partition
+\end_layout
+
+\begin_layout Itemize
+id físico: 6
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sda6 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /media/F048A77D48A740E8 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 62GiB 
+\end_layout
+
+\begin_layout Itemize
+configuración: mount.fstype=fuseblk mount.options=rw,nosuid,nodev,relatime,user_id
+=0,group_id=0,default_permissions,allow_other,blksize=4096 state=mounted
+\end_layout
+
+\begin_layout Subsubsection*
+logicalvolume: 2 
+\end_layout
+
+\begin_layout Itemize
+descripción: Linux swap / Solaris partition
+\end_layout
+
+\begin_layout Itemize
+id físico: 7 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sda7 
+\end_layout
+
+\begin_layout Itemize
+capacidad: 2046MiB
+\end_layout
+
+\begin_layout Itemize
+capacidades: nofs
+\end_layout
+
+\begin_layout Subsubsection*
+logicalvolume: 3
+\end_layout
+
+\begin_layout Itemize
+descripción: Linux filesystem partition
+\end_layout
+
+\begin_layout Itemize
+id físico: 8
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sda8 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /
+\end_layout
+
+\begin_layout Itemize
+capacidad: 41GiB
+\end_layout
+
+\begin_layout Itemize
+configuración: mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,data=
+ordered state=mounted
+\end_layout
+
+\begin_layout Subsection*
+scsi: 1
+\end_layout
+
+\begin_layout Itemize
+id físico: 2
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: scsi4
+\end_layout
+
+\begin_layout Itemize
+capacidades: emulated 
+\end_layout
+
+\begin_layout Subsubsection*
+cdrom:
+\end_layout
+
+\begin_layout Itemize
+descripción: DVD-RAM writer
+\end_layout
+
+\begin_layout Itemize
+producto: DVD-RAM GH22NP20
+\end_layout
+
+\begin_layout Itemize
+fabricante: HL-DT-ST 
+\end_layout
+
+\begin_layout Itemize
+id físico: 0.0.0 
+\end_layout
+
+\begin_layout Itemize
+información del bus: scsi@4:0.0.0
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/cdrom 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/cdrw 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/dvd
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/dvdrw 
+\end_layout
+
+\begin_layout Itemize
+nombre lógico: /dev/sr0 
+\end_layout
+
+\begin_layout Itemize
+versión: 1.02 
+\end_layout
+
+\begin_layout Itemize
+capacidades: removable audio cd-r cd-rw dvd dvd-r dvd-ram 
+\end_layout
+
+\begin_layout Itemize
+configuración: ansiversion=5 status=nodisc 
+\end_layout
+
+\end_body
+\end_document
