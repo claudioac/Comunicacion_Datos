@@ -1,0 +1,198 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Tarea 8 comunicación de datos
+\end_layout
+
+\begin_layout Standard
+Consideremos a modo de ejemplo la siguiente función periódica definida a
+ trozos como 
+\begin_inset Formula 
+\[
+s\left(t\right)=\begin{cases}
+1 & \mbox{si }0\leq t\leq\frac{T}{2}\\
+0 & \mbox{si }\frac{T}{2}\leq t\leq T
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+con 
+\begin_inset Formula $s\left(t\right)=s\left(t+T\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+encontrar los coeficientes 
+\begin_inset Formula $\forall i$
+\end_inset
+
+ de 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ y 
+\begin_inset Formula $b_{i}$
+\end_inset
+
+ tal que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s\left(t\right)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}a_{n}\cos\left(nft\right)+b_{n}\sin\left(nft\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+a_{0} & = & \frac{2}{T}\int_{T}s\left(t\right)dt\\
+ & = & \frac{2}{T}\int_{0}^{T/2}dt\\
+ & = & \frac{2}{T}\left(T/2-0\right)\\
+ & = & 1
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+coeficientes de las parte par de la serie 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+a_{n} & = & \frac{2}{T}\int_{T}s\left(t\right)\cos\left(nft\right)dt\\
+ & = & \frac{2}{T}\int_{0}^{T/2}\cos\left(nft\right)dt\\
+ & = & \frac{2\sin\left(\frac{nfT}{2}\right)}{nfT}\\
+ & = & \frac{2\sin\left(n\pi\right)}{nfT}\\
+ & = & 0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+coeficientes de las parte impar de la serie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+b_{n} & = & \frac{2}{T}\int_{T}s\left(t\right)\sin\left(nft\right)dt\\
+ & = & \frac{2}{T}\int_{0}^{T/2}\sin\left(nft\right)dt\\
+ & = & \frac{2}{T}\left.\left(-\frac{\cos\left(nft\right)}{nf}\right)\right|_{0}^{T/2}\\
+ & = & -\frac{2}{nTf}\left.\left(\cos\left(nft\right)\right)\right|_{0}^{T/2}\\
+ & = & -\frac{2}{nTf}\left(\cos\left(\frac{nfT}{2}\right)-\cos\left(0\right)\right)\\
+ & = & -\frac{2}{nTf}\left(\cos\left(\frac{nfT}{2}\right)-1\right)\\
+ & = & \frac{2}{nTf}\left(1-\cos\left(\frac{nfT}{2}\right)\right)\\
+ & = & \frac{2}{nTf}\left(1-\cos\left(n\pi\right)\right)\\
+ & = & \frac{1}{\pi n}\left(1-\left(-1\right)^{n}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+por lo que la serie queda definida como
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s\left(t\right)=\frac{1}{2}+\sum_{n=1}^{\infty}\frac{1}{\pi n}\left(1-\left(-1\right)^{n}\right)\sin\left(\frac{2\pi}{T}nt\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
