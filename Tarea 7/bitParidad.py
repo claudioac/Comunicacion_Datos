@@ -1,9 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # -*- coding: utf-8 -*-
 """bit de paridad"""
 
+
+
 def paridadFlag(trama):
     bit = sum(trama)
-    return int(not mod(bit,2))
+    return int(not bit%2)
 
 #ejemplo
 print "ejemplos : \n"
