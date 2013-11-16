@@ -877,13 +877,13 @@ sudo apt-get install udpcast
 Para usar udpcast en windows es necesario descargar dos archivos:
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 
 \noun on
 udp-receiver.exe
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 
 \noun on
 udp-sender.exe
@@ -1515,16 +1515,6 @@ Transferencia de Linux a Windows
 \end_layout
 
 \begin_layout Standard
-Antes de transferir los archivos se deben editar las direcciones ip de ambos
- equipos, luego se abren las terminales de los equipos para transferir los
- archivos mediante linea de comandos.
-\end_layout
-
-\begin_layout Standard
-udp-sender.exe -f ruta y nombre del archivo
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1557,10 +1547,6 @@ Comando escrito por el usuario que envía directorio
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-udp-receiver -f nombre del archivo
 \end_layout
 
 \begin_layout Standard
@@ -1642,14 +1628,6 @@ Pantalla de configuración
 \end_layout
 
 \begin_layout Standard
-Lineas de comando para transferir archivos en windows
-\end_layout
-
-\begin_layout Standard
-udp-sender.exe -f ruta y nombre del archivo
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1682,14 +1660,6 @@ Usuario que envía archivo
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Lineas de comando para recivir archivos en windows
-\end_layout
-
-\begin_layout Standard
-udp-receiver -f nombre del archivo
 \end_layout
 
 \begin_layout Standard
