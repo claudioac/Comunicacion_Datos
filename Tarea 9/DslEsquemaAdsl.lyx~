@@ -1,0 +1,117 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+DSL
+\end_layout
+
+\begin_layout Standard
+Es un término utilizado para referirse de forma global a todas las tecnologías
+ que proveen una conexión digital sobre línea de abonado de la red telefónica
+ básica o conmutada.
+\end_layout
+
+\begin_layout Standard
+La diferencia entre ADSL y otras DSL es que la velocidad de bajada y la
+ de subida no son simétricas, es decir, que normalmente permiten una velocidad
+ de bajada mayor que la de subida.
+\end_layout
+
+\begin_layout Section
+ADSL
+\end_layout
+
+\begin_layout Standard
+ADSL es el hermano más joven de proporción del pedazo Alta DSL (HDSL).
+ HDSL es la tecnología de DSL más vieja y es un servicio simétrico.
+ Los datos se transmiten a las proporciones de 1544 Mbps o 2.048 Mbps más
+ de dos y tres pares cobrizos, respectivamente.
+ Debido a sus velocidades altas, HDSL normalmente se usa por las compañías
+ del teléfono para la transmisión entre las oficinas en su centro - cambiando
+ la red.
+ HDSL también se usa por conectar el intercambio de la rama privado (PBX)
+ los sistemas (las redes del teléfono privadas común dentro de los negocios
+ grandes) los puntos de presencia (151 puntos de la ofrenda de presencia
+ para que los usuarios puedan marcar al Internet vía un número local), servidore
+s de Internet, y campus - las redes basado.
+\end_layout
+
+\begin_layout Standard
+ADSL se llama "asimétrico" porque la mayoría de sus dos manera la banda
+ ancha o el dúplex se consagra a la dirección del downstream, mientras enviando
+ los datos al usuario.
+ Sólo una porción pequeña de banda ancha está disponible para upstream o
+ usuario.
+ Sin embargo, más Internet y sobre todo los gráficos los medios de comunicación
+ los datos de Tejido intensivos necesitan el muchos banda ancha del downstream,
+ pero las demandas del usuario y contestaciones son pequeñas y requieren
+ el banda ancha del upstream pequeño.
+ ADSL usando, a 6.1 pueden enviarse megabits por segundo de datos el downstream
+ y a 640 upstream de Kbps.
+ Los medios de banda ancha de downstream altos que su línea telefónica podrá
+ traer el video del movimiento, audio, y 3-D imágenes a su computadora.
+ Además, una porción pequeña del banda ancha del downstream puede consagrarse
+ para expresar los datos más bien, y usted puede sostener las conversaciones
+ telefónicas sin requerir una línea separada.
+\end_layout
+
+\end_body
+\end_document
