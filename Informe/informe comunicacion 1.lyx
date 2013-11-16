@@ -1,0 +1,1750 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Conexión Entre Dos equipos A Través de Cable Cruzado
+\end_layout
+
+\begin_layout Title
+Claudio Acuña, Guillermo Rojas, José Acuña, Cristian Garrido Leonardo Jofré.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagebreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagebreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+Al transmitir grandes cantidades de datos un usuario se va a encontrar con
+ problemas al hacer uso del internet básicamente porque funciona en gran
+ parte con arquitectura cliente servidor cuyos protocolos no están diseñados
+ para la transmisión de grandes volúmenes de datos durante tiempos largos.
+ En este laboratorio presentamos formas más horizontales (p2p) como seguras
+ de transmisión de datos entre computadores punto a punto.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Palabras clave: Transferencia punto a punto, envío de datos, cable cruzado.
+\end_layout
+
+\begin_layout Section
+Marco Teórico:
+\end_layout
+
+\begin_layout Standard
+En arquitectura de computadores, el bus (o canal) es un sistema digital
+ que transfiere datos entre los componentes de una computadora o entre computado
+ras.
+ Está formado por cables o pistas en un circuito impreso, dispositivos como
+ resistores y condensadores además de circuitos integrados.
+\end_layout
+
+\begin_layout Standard
+En los primeros computadores electrónicos, todos los buses eran de tipo
+ paralelo, de manera que la comunicación entre las partes del computador
+ se hacía por medio de cintas o muchas pistas en el circuito impreso, en
+ los cuales cada conductor tiene una función fija y la conexión es sencilla
+ requiriendo únicamente puertos de entrada y de salida para cada dispositivo.
+\end_layout
+
+\begin_layout Standard
+La tendencia en los últimos años se hacía uso de buses seriales como el
+ USB, Firewire para comunicaciones con periféricos reemplazando los buses
+ paralelos, incluyendo el caso como el del microprocesador con el chipset
+ en la placa base.
+ Esto a pesar de que el bus serial posee una lógica compleja (requiriendo
+ mayor poder de cómputo que el bus paralelo) a cambio de velocidades y eficacias
+ mayores.
+\end_layout
+
+\begin_layout Standard
+Existen diversas especificaciones de que un bus se define en un conjunto
+ de características mecánicas como conectores, cables y tarjetas, además
+ de protocolos eléctricos y de señales.
+\end_layout
+
+\begin_layout Subsection
+Medios de transmisión.
+\end_layout
+
+\begin_layout Standard
+Dependiendo de la forma de conducir la señal a través del medio, los medios
+ de transmisión se pueden clasificar en dos grandes grupos: medios de transmisió
+n guiados y medios de transmisión no guiados.
+ Según el sentido de la transmisión podemos encontrarnos con tres tipos
+ diferentes: simplex, half-duplex y full-duplex.
+ También los medios de transmisión se caracterizan por utilizarse en rangos
+ de frecuencia de trabajo diferentes.
+\end_layout
+
+\begin_layout Subsubsection
+Simplex.
+\end_layout
+
+\begin_layout Standard
+Este modo de transmisión permite que la información discurra en un solo
+ sentido y de forma permanente.
+ Con esta fórmula es difícil la corrección de errores causados por deficiencias
+ de línea (por ejemplo, la señal de TV).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto1.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Transmisión simplex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Half-duplex.
+\end_layout
+
+\begin_layout Standard
+En este modo la transmisión fluye en los dos sentidos, pero no simultáneamente,
+ sólo una de las dos estaciones del enlace punto a punto puede transmitir.
+ Este método también se denomina en dos sentidos alternos (p.
+ ej., el walkie-talkie).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto2.JPG
+	width 80text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Transmisión half-duplex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Full-duplex.
+\end_layout
+
+\begin_layout Standard
+Es el método de comunicación más aconsejable puesto que en todo momento
+ la comunicación puede ser en dos sentidos posibles, es decir, que las dos
+ estaciones simultáneamente pueden enviar y recibir datos y así pueden corregir
+ los errores de manera instantánea y permanente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto3.JPG
+	width 80text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Transmisión half-duplex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Objetivos:
+\end_layout
+
+\begin_layout Standard
+Al finalizar el trabajo el alumno estará capacitado para configurar y establecer
+ una transmisión de datos punto a punto (P2P) empleando herramientas de
+ software e interfaces de comunicación estándares en Linux.
+\end_layout
+
+\begin_layout Subsection
+Objetivos específicos:
+\end_layout
+
+\begin_layout Itemize
+Conocer software de comunicación para realizar enlaces punto a punto simplex,
+ half-duplex y duplex.
+\end_layout
+
+\begin_layout Itemize
+Conocer interfaces de comunicaciones de la máquina como puertos seriales,
+ paralelos, USB y NIC.
+\end_layout
+
+\begin_layout Section
+Desarrollo
+\end_layout
+
+\begin_layout Subsection
+Construcción del cable cruzado
+\end_layout
+
+\begin_layout Standard
+Para poder realizar la comunicación de ambos equipos, implementamos un cable
+ cruzado.
+\end_layout
+
+\begin_layout Standard
+Para ello se utilizó la siguiente lista de materiales:
+\end_layout
+
+\begin_layout Itemize
+Un cable utp categoría 5.
+\end_layout
+
+\begin_layout Itemize
+Dos conectores rj45.
+\end_layout
+
+\begin_layout Itemize
+Herramienta Crimpadora.
+\end_layout
+
+\begin_layout Standard
+Según el estándar tanto el cable como el conector tiene los contactos numerados
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto4.jpg
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+T-568A y T568B respectivamente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego procedemos a unir el cable con el conector siguiendo el siguiente
+ esquema.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ver figura X
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto5.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A través de la siguiente secuencia de fotos, se explicará como realizar
+ las conexiones pertinentes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto6.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Corte de la funda protectora a unos 4 cm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto7.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Se procede a su retiro.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto8.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Desenrollo de los 4 pares de cable trenzados
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto9.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Orden de los cables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto10.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Estirarmiento de los cables, sin que estos cambien de posición
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto11.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Posición Paralela
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto12.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Corte de aprox.
+ 14 y 15 mm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego se introducen dentro del conector, sin aflojar la presión sobre el
+ extremo de la camisa, vigilando que cada uno entre por su carril.
+ (Figura 8)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto13.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Se corta la funda protectora a unos 4 CM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hasta que los cables llegan a tope al final de los carriles.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ver figura X
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto14.png
+	scale 50
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inmediatamente sujetando el cable muy cerca del conector, apretando la camisa
+ gris sobre los cables interiores, para que no se desplacen, se introduce
+ el conector en la herramienta de crimpar.
+\end_layout
+
+\begin_layout Subsection
+Distribuciones de S.O
+\end_layout
+
+\begin_layout Standard
+Distribuciones Usadas:
+\end_layout
+
+\begin_layout Itemize
+Ubuntu 12.04 Raring Ringtail.
+\end_layout
+
+\begin_layout Itemize
+Linux Mint 15 Olivia.
+\end_layout
+
+\begin_layout Itemize
+Windows 7.
+\end_layout
+
+\begin_layout Subsubsection
+Instalación del software para transferencia de datos (udpcast).
+\end_layout
+
+\begin_layout Standard
+Lo primero que se realizó, una vez asignados los equipos, fue instalar Ubuntu
+ 12.04 y Linux Mint 15.
+ Para ello, se descargó una imagen ISO de la página oficial y se utilizó
+ el programa “unetbootin” para crear un ejecutable en un pendrive.
+\end_layout
+
+\begin_layout Standard
+Una vez instalado el sistema operativo Ubuntu y Mint, se actualizaron los
+ repositorios y se cargaron dichas actualizaciones en el equipo.
+ Esto fue realizado abriendo una terminal (ctrl+alt+t), y escribiendo lo
+ siguiente:
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+sudo apt-get update
+\end_layout
+
+\begin_layout Standard
+y luego,
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+sudo apt-get upgrade
+\end_layout
+
+\begin_layout Standard
+Una vez actualizado el sistema operativo, se procedió a instalar udpcast,
+ mediante terminal:
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+sudo apt-get install udpcast
+\end_layout
+
+\begin_layout Standard
+Para usar udpcast en windows es necesario descargar dos archivos:
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+udp-receiver.exe
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+udp-sender.exe
+\end_layout
+
+\begin_layout Standard
+Estos se pueden descargar de :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.udpcast.linux.lu/exe.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Cambiar el puerto ethernet a modo local para transferencia de datos.
+\end_layout
+
+\begin_layout Itemize
+Se procede a realizar “click derecho” sobre el equipo de la red que esta
+ ubicado en la esquina inferior derecha.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 15.png
+	width 80text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Barra de tarea en escritorio Cinnamon
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A continuación el menú indicado se procede a seleccionar “preferencia de
+ redes”---->”Cableada”---->”opciones ”----->”Ajustes de IPV4” y a continuación
+ en este punto en la opción Método se elige la opción (Manual).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 16.png
+	width 50text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Se selecciona Añadir y se completa en la sección de dirección con los siguientes
+ datos.
+\end_layout
+
+\begin_layout Enumerate
+Dirección: Se llena con la dirección ip del computador en uso
+\end_layout
+
+\begin_layout Enumerate
+Máscara de red: se procede a llenar con la MAC correspondiente
+\end_layout
+
+\begin_layout Enumerate
+Puerta de enlace: se coloca la dirección ip con cual se quiere hacer puente.
+\end_layout
+
+\begin_layout Enumerate
+Enseguida se selecciona guardar, y con esto queda completamente enlazado
+ los dos computadores a través de el cable cruzado para realizar las pruebas
+ correspondientes con udpcast a través lineas de comandos.
+\end_layout
+
+\begin_layout Subsubsection
+Pruebas Realizadas.
+\end_layout
+
+\begin_layout Itemize
+Primer lugar se realizó una prueba de testeo para visualizar la conexión
+ de los computadores donde se procedió a verificar el ping de ambos.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Ping 169.254.10.154 (Pc que manda archivos)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+PING 169.254.10.154 (169.254.10.154) 56(84) bytes of data.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=1 ttl=64 time=0.878 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=2 ttl=64 time=0.486 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=3 ttl=64 time=0.473 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=4 ttl=64 time=0.521 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=5 ttl=64 time=0.486 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=6 ttl=64 time=0.492 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=7 ttl=64 time=0.496 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.10.154: icmp_req=8 ttl=64 time=0.526 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+--- 169.254.10.154 ping statistics ---
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+8 packets transmitted, 8 received, 0% packet loss, time 6999ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+rtt min/avg/max/mdev = 0.473/0.544/0.878/0.130 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+ping 169.254.7.171 (Pc que recive archivos)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+PING 169.254.7.171 (169.254.7.171) 56(84) bytes of data.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=1 ttl=64 time=0.291 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=2 ttl=64 time=0.355 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=3 ttl=64 time=0.368 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=4 ttl=64 time=0.491 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=5 ttl=64 time=0.514 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=6 ttl=64 time=0.420 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=7 ttl=64 time=0.498 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=8 ttl=64 time=0.475 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=9 ttl=64 time=0.345 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=10 ttl=64 time=0.330 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=11 ttl=64 time=0.483 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=12 ttl=64 time=0.469 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+64 bytes from 169.254.7.171: icmp_req=13 ttl=64 time=0.469 ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+--- 169.254.7.171 ping statistics ---
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+13 packets transmitted, 13 received, 0% packet loss, time 11997ms
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+rtt min/avg/max/mdev = 0.291/0.423/0.514/0.076 
+\end_layout
+
+\begin_layout Standard
+Terminada la prueba de ping se dispuso a realizar una análisis a las redes
+ de una de las estaciones de trabajo para verificar el tipo de conexión
+ realizada donde se muestra a continuación los resultados obtenidos a través
+ del comando de linux:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+$ ifconfig 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+eth0 Link encap:Ethernet direcciónHW e8:03:9a:05:28:f4 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Direc.
+ inet:169.254.7.171 Difus.:169.254.255.255 MÃ¡sc:255.255.0.0
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Dirección inet6: fe80::ea03:9aff:fe05:28f4/64 Alcance:Enlace
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+ACTIVO DIFUSIÓN FUNCIONANDO MULTICAST MTU:1500 Métrica:1
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Paquetes RX:160 errores:0 perdidos:0 overruns:0 frame:0
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Paquetes TX:290 errores:0 perdidos:0 overruns:0 carrier:0
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+colisiones:0 long.colaTX:1000
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Bytes RX:45871 (45.8 KB) TX bytes:60061 (60.0 KB)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+lo Link encap:Bucle local 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Direc.
+ inet:127.0.0.1 MÃ¡sc:255.0.0.0
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Dirección inet6: ::1/128 Alcance:Anfitrión
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+ACTIVO BUCLE FUNCIONANDO MTU:65536 Métrica:1
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Paquetes RX:1988 errores:0 perdidos:0 overruns:0 frame:0
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Paquetes TX:1988 errores:0 perdidos:0 overruns:0 carrier:0
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+colisiones:0 long.colaTX:0
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\shape italic
+\noun on
+Bytes RX:229472 (229.4 KB) TX bytes:229472 (229.4 KB)
+\end_layout
+
+\begin_layout Standard
+Finalmente se procedió a realizar una transferencia de directorios mediante
+ udpcast utilizando los siguientes comandos:
+\end_layout
+
+\begin_layout Subsection
+Transferencia de Linux a Linux
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+tar cf - directorio | udp-sender
+\noun default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 17.png
+	width 100text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Comando escrito por el usuario que envía directorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+b.
+ udp-receiver | tar xf - 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 18.png
+	width 100text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Comando escrito por el usuario que recibe directorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Transferencia de Linux a Windows
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 20.jpg
+	width 100text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Comando escrito por el usuario que envía directorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 21.png
+	width 100text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Comando escrito por el usuario que recibe directorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Transferencia de Windows a Windows
+\end_layout
+
+\begin_layout Itemize
+Configuración de la Ip por parte del receptor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 19.png
+	width 100text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pantalla de configuración
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 23.jpg
+	width 100text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Usuario que envía archivo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../foto 24png
+	width 100text%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Usuario que recibe directorio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusión
+\end_layout
+
+\begin_layout Standard
+Al finalizar el trabajo, se ha aprendido resolver y configurar una transmisión
+ de datos de punto a punto.
+ Esto fue posible a la completa documentación de udpcast y la facilidad
+ de realizarlo por terminal.
+\end_layout
+
+\begin_layout Standard
+Además reconocer la importancia de la velocidad a la hora de transmisión
+ de datos, debido que hoy en día, el mundo no espera.
+\end_layout
+
+\begin_layout Standard
+Estudios más detallados serán hechos posteriormente con respecto a las comunicac
+ión entre máquinas en los puertos seriales y paralelos.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Transmisión de Datos y la Red de Computadores.
+ García Teodoro, Pedro; Díaz Verdejo, Jesús Esteban; López Soler, Juan Manuel;
+ Ed.
+ PEARSON, Pretice Hall.
+ Edición: 2003.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/Telecomunicaciones 
+\end_layout
+
+\end_inset
+
+(2013)
+\end_layout
+
+\end_body
+\end_document
