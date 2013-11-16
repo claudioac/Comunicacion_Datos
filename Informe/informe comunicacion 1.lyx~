@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -789,7 +790,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
+Conector a herramienta crimpeadora Rj45
 \end_layout
 
 \end_inset
@@ -877,13 +878,13 @@ sudo apt-get install udpcast
 Para usar udpcast en windows es necesario descargar dos archivos:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \noun on
 udp-receiver.exe
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \noun on
 udp-sender.exe
@@ -980,7 +981,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
+Menu de Cofiguración de redes Linux Mint 15
 \end_layout
 
 \end_inset
@@ -1134,7 +1135,7 @@ rtt min/avg/max/mdev = 0.473/0.544/0.878/0.130 ms
 
 \shape italic
 \noun on
-ping 169.254.7.171 (Pc que recive archivos)
+ping 169.254.7.171 (Pc que recibe archivos)
 \end_layout
 
 \begin_layout Standard
@@ -1427,6 +1428,20 @@ Finalmente se procedió a realizar una transferencia de directorios mediante
 Transferencia de Linux a Linux
 \end_layout
 
+\begin_layout Itemize
+Antes de Realizar la transferencia se necesita tener conectado nuestros
+ computadores a traves del cable cruzado y aplicar la configuración anteriorment
+e descrita en la sección 
+\begin_inset Quotes eld
+\end_inset
+
+Cambios de ethernet a modo local
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Standard
 
 \noun on
@@ -1515,6 +1530,16 @@ Transferencia de Linux a Windows
 \end_layout
 
 \begin_layout Standard
+Antes de transferir los archivos se deben editar las direcciones ip de ambos
+ equipos, luego se abren las terminales de los equipos para transferir los
+ archivos mediante linea de comandos.
+\end_layout
+
+\begin_layout Standard
+udp-sender.exe -f ruta y nombre del archivo
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1547,6 +1572,10 @@ Comando escrito por el usuario que envía directorio
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+udp-receiver -f nombre del archivo
 \end_layout
 
 \begin_layout Standard
@@ -1589,7 +1618,8 @@ Transferencia de Windows a Windows
 \end_layout
 
 \begin_layout Itemize
-Configuración de la Ip por parte del receptor.
+Configuración de la Ip por parte del receptor, previamente antes de recibir
+ archivos para lograr la conección a través de cable cruzado.
 \end_layout
 
 \begin_layout Standard
@@ -1628,6 +1658,14 @@ Pantalla de configuración
 \end_layout
 
 \begin_layout Standard
+Lineas de comando para transferir archivos en windows
+\end_layout
+
+\begin_layout Standard
+udp-sender.exe -f ruta y nombre del archivo
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1660,6 +1698,14 @@ Usuario que envía archivo
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Lineas de comando para recivir archivos en windows
+\end_layout
+
+\begin_layout Standard
+udp-receiver -f nombre del archivo
 \end_layout
 
 \begin_layout Standard

@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -235,6 +236,7 @@ En este modo la transmisión fluye en los dos sentidos, pero no simultáneamente
 
 \begin_layout Standard
 \begin_inset Float figure
+placement !h
 wide false
 sideways false
 status open
@@ -281,6 +283,7 @@ Es el método de comunicación más aconsejable puesto que en todo momento
 
 \begin_layout Standard
 \begin_inset Float figure
+placement !h
 wide false
 sideways false
 status open
@@ -373,6 +376,7 @@ Según el estándar tanto el cable como el conector tiene los contactos numerado
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -424,6 +428,7 @@ Ver figura X
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -444,7 +449,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
+Extremos de Cable Cruzado 
 \end_layout
 
 \end_inset
@@ -464,6 +469,7 @@ A través de la siguiente secuencia de fotos, se explicará como realizar
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -503,6 +509,7 @@ Corte de la funda protectora a unos 4 cm
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -538,6 +545,7 @@ Se procede a su retiro.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -573,6 +581,7 @@ Desenrollo de los 4 pares de cable trenzados
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -608,6 +617,7 @@ Orden de los cables
 
 \begin_layout Standard
 \begin_inset Float figure
+placement !h
 wide false
 sideways false
 status open
@@ -643,6 +653,7 @@ Estirarmiento de los cables, sin que estos cambien de posición
 
 \begin_layout Standard
 \begin_inset Float figure
+placement !h
 wide false
 sideways false
 status open
@@ -677,6 +688,7 @@ Posición Paralela
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -719,6 +731,7 @@ Luego se introducen dentro del conector, sin aflojar la presión sobre el
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -769,6 +782,7 @@ Ver figura X
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -789,7 +803,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
+Conector a herramienta crimpeadora Rj45
 \end_layout
 
 \end_inset
@@ -919,6 +933,7 @@ Se procede a realizar “click derecho” sobre el equipo de la red que esta
 
 \begin_layout Standard
 \begin_inset Float figure
+placement !h
 wide false
 sideways false
 status open
@@ -960,6 +975,7 @@ A continuación el menú indicado se procede a seleccionar “preferencia de
 
 \begin_layout Standard
 \begin_inset Float figure
+placement !h
 wide false
 sideways false
 status open
@@ -980,7 +996,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
+Menu de Cofiguración de redes Linux Mint 15
 \end_layout
 
 \end_inset
@@ -1134,7 +1150,7 @@ rtt min/avg/max/mdev = 0.473/0.544/0.878/0.130 ms
 
 \shape italic
 \noun on
-ping 169.254.7.171 (Pc que recive archivos)
+ping 169.254.7.171 (Pc que recibe archivos)
 \end_layout
 
 \begin_layout Standard
@@ -1427,6 +1443,21 @@ Finalmente se procedió a realizar una transferencia de directorios mediante
 Transferencia de Linux a Linux
 \end_layout
 
+\begin_layout Itemize
+Antes de Realizar la transferencia se necesita tener conectado los computadores
+ a través del cable cruzado y aplicar la configuración anteriormente descrita
+ en la sección de 
+\begin_inset Quotes eld
+\end_inset
+
+Cambios de ethernet a modo local
+\begin_inset Quotes erd
+\end_inset
+
+, donde a continuación se procede a escribir los siguientes comandos para
+ la transferencia de archivos.
+\end_layout
+
 \begin_layout Standard
 
 \noun on
@@ -1437,6 +1468,7 @@ tar cf - directorio | udp-sender
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1477,6 +1509,7 @@ b.
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1526,6 +1559,7 @@ udp-sender.exe -f ruta y nombre del archivo
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1565,6 +1599,7 @@ udp-receiver -f nombre del archivo
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1603,11 +1638,13 @@ Transferencia de Windows a Windows
 \end_layout
 
 \begin_layout Itemize
-Configuración de la Ip por parte del receptor.
+Configuración de la Ip por parte del receptor, previamente antes de recibir
+ archivos para lograr la conexión a través de cable cruzado.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement !h
 wide false
 sideways false
 status open
@@ -1645,12 +1682,13 @@ Pantalla de configuración
 Lineas de comando para transferir archivos en windows
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 udp-sender.exe -f ruta y nombre del archivo
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1685,15 +1723,16 @@ Usuario que envía archivo
 \end_layout
 
 \begin_layout Standard
-Lineas de comando para recivir archivos en windows
+Lineas de comando para recibir archivos en windows
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 udp-receiver -f nombre del archivo
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
