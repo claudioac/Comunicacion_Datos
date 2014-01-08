@@ -1,0 +1,217 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrartcl
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 2cm
+\headsep 2cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Tarea 17 
+\end_layout
+
+\begin_layout Author
+Claudio Acuña Leonardo Jofre Guillermo Rojas Cristian Garrido José Acuña
+\end_layout
+
+\begin_layout Subtitle
+Historia Del Arte Sobre Tecnologías Móviles.
+\end_layout
+
+\begin_layout Section*
+Generación 1g (Protocolos NMT 450, AMPS ,TACS)
+\end_layout
+
+\begin_layout Standard
+En 1981 el fabricante Ericsson lanza el sistema NMT 450 (Nordic Mobile Telephony
+ 450 MHz).
+ Este sistema seguía utilizando canales de radio analógicos (frecuencias
+ en torno a 450 MHz) con modulación en frecuencia (FM).
+ Era el primer sistema del mundo de telefonía móvil tal como se entiende
+ hasta hoy en día.
+ Los equipos 1G pueden parecer algo aparatosos para los estándares actuales
+ pero fueron un gran avance para su época, ya que podían ser trasladados
+ y utilizados por una única persona.
+ En 1986, Ericsson modernizó el sistema, llevándolo hasta el nivel NMT 900.
+ Esta nueva versión funcionaba prácticamente igual que la anterior pero
+ a frecuencias superiores (del orden de 900 MHz).
+ Esto posibilitó dar servicio a un mayor número de usuarios y avanzar en
+ la portabilidad de los terminales.
+ Además del sistema NMT, en los 80 se desarrollaron otros sistemas de telefonía
+ móvil tales como: AMPS (Advanced Mobile Phone System) en EE.
+ UU.
+ y TACS (Total Access Comunication System).
+\end_layout
+
+\begin_layout Section*
+Generación 2G (Protocolo GSM)
+\end_layout
+
+\begin_layout Standard
+En la década de 1990 nace la segunda generación, que utiliza sistemas como
+ GSM, IS-136, iDEN e IS-95.
+ Las frecuencias utilizadas en Europa fueron de 900 y 1800 MHz.
+\end_layout
+
+\begin_layout Standard
+El estándar que ha universalizado la telefonía móvil ha sido el archiconocido
+ GSM: Global System for Mobile communications o Groupe Spécial Mobile.
+ Se trata de un estándar europeo nacido de los siguientes principios: 
+\end_layout
+
+\begin_layout Itemize
+Buena calidad de voz (gracias al procesado digital).
+ 
+\end_layout
+
+\begin_layout Itemize
+Itinerancia (Roaming).
+ 
+\end_layout
+
+\begin_layout Itemize
+Deseo de implantación internacional.
+ 
+\end_layout
+
+\begin_layout Itemize
+Terminales realmente portátiles (de reducido peso y tamaño) a un precio
+ asequible.
+\end_layout
+
+\begin_layout Itemize
+Compatibilidad con la RDSI (Red Digital de Servicios Integrados).
+ 
+\end_layout
+
+\begin_layout Itemize
+Instauración de un mercado competitivo con multitud de operadores y fabricantes.
+\end_layout
+
+\begin_layout Standard
+Realmente, GSM ha cumplido con todos sus objetivos pero al cabo de un tiempo
+ empezó a acercarse a la obsolescencia porque sólo ofrecía un servicio de
+ voz o datos a baja velocidad (9.6 kbit/s) y el mercado empezaba a requerir
+ servicios multimedia que hacían necesario un aumento de la capacidad de
+ transferencia de datos del sistema.
+ Es en este momento cuando se empieza a gestar la idea de 3G, pero como
+ la tecnología CDMA no estaba lo suficientemente madura en aquel momento
+ se optó por dar un paso intermedio: 2.5G.
+\end_layout
+
+\begin_layout Section*
+Generación 2.5 G(Protocolos GPRS, EDGE)
+\end_layout
+
+\begin_layout Standard
+Dado que la tecnología de 2G fue incrementada a 2.5G, en la cual se incluyen
+ nuevos servicios como EMS y MMS: EMS es el servicio de mensajería mejorado,
+ permite la inclusión de melodías e iconos dentro del mensaje basándose
+ en los sms; un EMS equivale a 3 o 4 sms.
+ MMS (Sistema de Mensajería Multimedia) Este tipo de mensajes se envían
+ mediante GPRS y permite la inserción de imágenes, sonidos, videos y texto.
+ Un MMS se envía en forma de diapositiva, la cual cada plantilla solo puede
+ contener un archivo de cada tipo aceptado, es decir, solo puede contener
+ una imagen, un sonido y un texto en cada plantilla, si se desea agregar
+ más de estos tendría que agregarse otra plantilla.
+ Cabe mencionar que no es posible enviar un vídeo de más de 15 segundos
+ de duración.
+ Para poder prestar estos nuevos servicios se hizo necesaria una mayor velocidad
+ de transferencia de datos, que se hizo realidad con las tecnologías GPRS
+ y EDGE.
+ 
+\end_layout
+
+\begin_layout Itemize
+GPRS (General Packet Radio Service) permite velocidades de datos desde 56
+ kbit/s hasta 114 kbit/s.
+ 
+\end_layout
+
+\begin_layout Itemize
+EDGE (Enhanced Data rates for GSM Evolution) permite velocidades de datos
+ hasta 384 kbit/s.
+\end_layout
+
+\begin_layout Section*
+Generacion 3g (protocolo UMTS)
+\end_layout
+
+\begin_layout Standard
+3G nace de la necesidad de aumentar la capacidad de transmisión de datos
+ para poder ofrecer servicios como la conexión a Internet desde el móvil,
+ la videoconferencia, la televisión y la descarga de archivos.
+ En este momento el desarrollo tecnológico ya posibilita un sistema totalmente
+ nuevo: UMTS (Universal Mobile Telecommunications System).
+ UMTS utiliza la tecnología CDMA, lo cual le hace alcanzar velocidades realmente
+ elevadas (de 144 kbit/s hasta 7.2 Mbit/s, según las condiciones del terreno).
+ UMTS ha sido un éxito total en el campo tecnológico pero no ha triunfado
+ excesivamente en el aspecto comercial.
+ Se esperaba que fuera un bombazo de ventas como GSM pero realmente no ha
+ resultado ser así ya que, según parece, la mayoría de usuarios tiene bastante
+ con la transmisión de voz y la transferencia de datos por GPRS y EDGE
+\end_layout
+
+\end_body
+\end_document
