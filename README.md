@@ -47,4 +47,27 @@ Considerar un Router por subred.
 La IP para subneting es 172.10.X.X  
 Dibuje las subredes y sus enlaces.
 Construya la Tabla de enrutamientos.
+##Tarea 14y15: Cuestionario##
+
+Cuestionario sobre Protocolo ARP y NAT
+
+##Tarea 16: Disertación llaves publicas##
+
+Disertación sobre administración de llaves publicas
+
+##Tarea 17: Tecnologias Moviles## 
+
+Realizar en breve el estado del arte de las tecnologías para comunicaciones móviles. 
+Etapas de las G.
+
+##Tarea 18: WAP##
+
+-	En qué consiste WAP
+-	Arquitectura
+-	Modelo de capas
+-	Descripción de cada capa
+-	Acrónimos
+-	Dar un ejemplo: se recomienda ver los link recomendados por ejemplo portalwap.com  
+-	Dar ejemplos de wap en Chile.
+
 
